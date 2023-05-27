@@ -1,0 +1,9 @@
+.new_post_button .button{
+    color: white;
+    font-size: 3vw;
+    border-radius: 50px;
+    background-image: linear-gradient(to bottom right, #BD26AE, #F71162, #FF0000);
+    border-style: none;
+    width: 3vw;
+    height: 22vh;
+}
