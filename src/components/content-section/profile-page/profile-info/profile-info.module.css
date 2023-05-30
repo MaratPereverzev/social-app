@@ -1,0 +1,12 @@
+.profile_info{
+    display: flex;
+    gap: 30px;
+}
+.profile_avatar{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+}
+.profile_status h2{
+    margin-bottom: 3vh;
+}

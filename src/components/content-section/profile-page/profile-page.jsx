@@ -6,6 +6,7 @@ const ProfilePage = (props) => {
     return (
         <div className={styles.Profile_page}>
             <ProfileIntroBackground />
+            <ProfileInfo name={props.name}/>
         </div>
     );
 }
