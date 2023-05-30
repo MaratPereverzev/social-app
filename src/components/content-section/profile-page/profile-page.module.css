@@ -1,0 +1,6 @@
+.Profile_page{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 3vh;
+}
