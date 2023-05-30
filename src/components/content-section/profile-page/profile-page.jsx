@@ -5,6 +5,7 @@ import ProfileInfo from './profile-info/profile-info';
 const ProfilePage = (props) => {
     return (
         <div className={styles.Profile_page}>
+            <ProfileIntroBackground />
         </div>
     );
 }
