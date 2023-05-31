@@ -2,8 +2,22 @@
     color: white;
     font-size: 3vw;
     border-radius: 50px;
-    background-image: linear-gradient(to bottom right, #BD26AE, #F71162, #FF0000);
+    background-image: linear-gradient(to bottom right, #bd26b8, #f71162, #ff9100);
     border-style: none;
-    width: 3vw;
-    height: 22vh;
+    width: 2.8vw;
+    height: 24vh;
+    background-size: 400%;
+}
+
+.new_post_button .button:hover{
+    animation: bg-position 1700ms infinite alternate;
+}
+
+@keyframes bg-position {
+    0%{
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
 }
