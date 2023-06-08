@@ -1,0 +1,5 @@
+.chat_page{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}

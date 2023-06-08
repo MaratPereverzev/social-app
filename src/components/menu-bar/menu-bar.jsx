@@ -15,12 +15,12 @@ import { NavLink, Router} from 'react-router-dom';
 const MenuBar = () => {
     return (
             <div className={ styles.Menu_bar }>
-                <NavLink to="/home"><DefaultButton src={home} alt='home button'/></NavLink>
-                <NavLink to="/profile"><DefaultButton src={profile} alt='profile button'/></NavLink>
-                <NavLink to="/chat"><DefaultButton src={chat} alt='chat button'/></NavLink>
-                <NavLink to="/create"><NewPostButton /></NavLink>
-                <NavLink to="/search"><DefaultButton src={search} alt='search button'/></NavLink>
-                <NavLink to="/settings"><DefaultButton src={settings} alt='settings button'/></NavLink>
+                <NavLink to="/home/"><DefaultButton src={home} alt='home button'/></NavLink>
+                <NavLink to="/profile/"><DefaultButton src={profile} alt='profile button'/></NavLink>
+                <NavLink to="/chat/"><DefaultButton src={chat} alt='chat button'/></NavLink>
+                <NavLink to="/create/"><NewPostButton /></NavLink>
+                <NavLink to="/search/"><DefaultButton src={search} alt='search button'/></NavLink>
+                <NavLink to="/settings/"><DefaultButton src={settings} alt='settings button'/></NavLink>
             </div>
     );
 }

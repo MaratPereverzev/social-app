@@ -1,0 +1,20 @@
+.person_block{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    border-radius: 10px;
+    transition: background-color 500ms ease-in-out;
+    cursor: pointer;
+    padding: 5px;
+}
+.person_block:hover{
+    background-color: rgb(234, 234, 234);
+}
+.person_block img{
+    border-radius: 100%;
+    width: 55px;
+    height: 100%;
+}
+.person_block .person_name{
+    flex-grow: 1;
+}

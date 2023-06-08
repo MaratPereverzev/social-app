@@ -1,0 +1,25 @@
+.message{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.message img{
+    border-radius: 100%;
+    width: 35px;
+    height: 35px;
+}
+.message .text{
+    background-color: rgb(193, 244, 209);
+    border-radius: 10px;
+    padding: 5px 20px;
+    max-width: 50%;
+
+}
+.message .text p{
+    margin: 0;
+    padding: 0;
+}
+.message img{
+    position: sticky; 
+    top: 0px;
+}

@@ -1,0 +1,32 @@
+.chat_block{
+    max-height: 95vh;
+    flex-grow: 1;
+}
+.chat_person_name h1{
+    padding: 5px;
+    height: 8%;
+}
+.chat{
+    height: 92%;
+    width: 100%;
+    overflow-y: auto; 
+    scrollbar-color: transparent;
+    background: url('./i.webp') no-repeat center center fixed;
+    background-size: cover;
+
+}
+.chat::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: transparent;
+    border-radius: 100vw;
+}
+
+.chat::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent;
+}
+
+.chat::-webkit-scrollbar-thumb {
+    background-color: #a0a0a0;
+    border-radius: 100vw;
+}
